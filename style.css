@@ -1,0 +1,132 @@
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;}
+
+ body{background-color: rgb(43, 41, 41);}
+
+ .bg-container{width: 100%;
+  background-image: linear-gradient(rgba(77, 78, 78, 0.7),rgba(21, 22, 22, 0.7)),url(./image/Premium\ Photo\ _\ Muscular\ tattooed\ bearded\ male\ exercising.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-color: black;
+}
+
+/*---------------NAVIGATION BAR------------------*/
+
+
+.container{width:100%;
+          background-color: rgb(68, 67, 67);
+         margin: auto;}
+
+.container ul{display: flex;
+              padding: 20px 20px 20px 0px;
+              justify-content: right;}   
+            
+.container ul li{margin-left: 30px;
+                list-style-type: none;
+                }     
+
+.container ul li a{text-decoration: none;
+                  font-size: 14px;
+                  color:rgb(211, 45, 45);
+                  transition: .5s;
+                  font-weight: bold;
+                  font-size: 16px;}
+
+
+.container ul li a:hover {text-decoration: underline;
+                          color: white;}  
+                 
+.bg-container-paragraph{margin-top:100px;
+text-align: center;}   
+
+h1{color: rgb(216, 43, 43);
+ font-size: 30px;
+ font-weight: bold;
+ word-spacing: 10px;
+padding-bottom: 15px;}
+
+h2{color: white;
+  font-weight: bold;
+  padding-bottom: 20px;}
+
+
+.start{border: 2px solid rgb(216, 43, 43);
+  border-radius: 5px;
+  background-color: rgb(216, 43, 43);
+  padding: 10px 20px 10px 20px;
+text-decoration: none;
+color: white;
+font-weight: bold;}
+
+
+/*----------------------SESSION SECTION--------------------*/
+
+.session{width:80%;
+  background-color: rgb(53, 50, 50);
+  height: 100%;;
+  margin: auto;
+  padding-top: px;
+  }
+
+.row{display: flex;
+    margin-top:3%;} 
+
+.col{flex-basis: 30%;
+     margin-bottom: 30px;
+     
+     
+     position: relative;
+     overflow: hidden;}
+
+img{width:350px;
+    height: 450px;
+  margin-left: 40px;}  
+
+.qym-quote{text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform:uppercase;
+  padding-bottom: 20px;
+  color: white;}
+
+  .quote{color:rgb(216, 43, 43);
+        text-align: center;
+        padding-bottom:5px;
+        text-decoration: underline;
+        padding-top: 20px;}
+
+span{color: rgb(216, 43, 43);}      
+
+.message{width:80%;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin: auto;}
+
+.push-ups{text-align: center;
+         color:rgb(216, 43, 43) ;}
+
+.start-two{border: 2px solid rgb(216, 43, 43);
+  border-radius: 5px;
+  background-color: rgb(216, 43, 43);
+  padding: 10px 20px 10px 20px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}  
+
+.start-div{padding-top: 30px;
+         margin-left: 20px;}
+
+
+
+/*---------------------GALLERY-----------------*/
+.gallery{width:80%;
+background-color: cyan;
+margin: auto;
+height: 60vh;}
+
+.paragraph{margin-left: 20px;
+          padding: 20px;}

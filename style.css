@@ -16,19 +16,19 @@
 /*---------------NAVIGATION BAR------------------*/
 
 
-.container{width:100%;
+.container-one{width:100%;
           background-color: rgb(68, 67, 67);
          margin: auto;}
 
-.container ul{display: flex;
+.container-one ul{display: flex;
               padding: 20px 20px 20px 0px;
               justify-content: right;}   
             
-.container ul li{margin-left: 30px;
+.container-one ul li{margin-left: 30px;
                 list-style-type: none;
                 }     
 
-.container ul li a{text-decoration: none;
+.container-one ul li a{text-decoration: none;
                   font-size: 14px;
                   color:rgb(211, 45, 45);
                   transition: .5s;
@@ -36,7 +36,7 @@
                   font-size: 16px;}
 
 
-.container ul li a:hover {text-decoration: underline;
+.container-one ul li a:hover {text-decoration: underline;
                           color: white;}  
                  
 .bg-container-paragraph{margin-top:100px;
@@ -123,10 +123,51 @@ font-weight: bold;
 
 
 /*---------------------GALLERY-----------------*/
-.gallery{width:80%;
-background-color: cyan;
-margin: auto;
-height: 60vh;}
+.contact-infor{width: 80%;
+  margin: auto;
+  background-color: rgb(44, 42, 42);
+  height: 100%;
+  margin-bottom: 20em;
+  margin-top: 60px;}  
 
 .paragraph{margin-left: 20px;
           padding: 20px;}
+
+.container{display: flex;}        
+
+.contact-form{padding:20px;}
+
+.contact-form h3{text-align: center;}
+
+.contact-form input{width: 500px;
+                    margin-top: 20px;
+                    height: 56px;
+                    color: white;
+                    border-radius: 10px;
+                    border-top: none;
+                    border-right: none;
+                    padding: 15px;
+                   background-color: transparent;}
+
+.submit{width: 500px;
+        border: 1px solid white;
+        color: white;
+        background-color:black;}                   
+
+
+.contact-form input::placeholder{color:white;
+                                 font-size: 16px;}   
+
+
+textarea{max-height: 12vh;
+         min-width: 200px;
+         min-height: 12vh;
+         max-width: 500px;}
+
+textarea{margin-top: 20px;}     
+
+
+.map{padding:20px;}
+
+
+iframe{filter: invert(100%);}

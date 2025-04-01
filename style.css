@@ -76,8 +76,7 @@ font-weight: bold;}
 
 .col{flex-basis: 30%;
      margin-bottom: 30px;
-     
-     
+     animation-timeline:view();
      position: relative;
      overflow: hidden;}
 
@@ -111,10 +110,10 @@ span{color: rgb(216, 43, 43);}
 .start-two{border: 2px solid rgb(216, 43, 43);
   border-radius: 5px;
   background-color: rgb(216, 43, 43);
-  padding: 10px 20px 10px 20px;
-text-decoration: none;
-color: white;
-font-weight: bold;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }  
 
 .start-div{padding-top: 30px;
@@ -127,7 +126,6 @@ font-weight: bold;
   margin: auto;
   background-color: rgb(44, 42, 42);
   height: 100%;
-  margin-bottom: 20em;
   margin-top: 60px;}  
 
 .paragraph{margin-left: 20px;
@@ -162,7 +160,8 @@ font-weight: bold;
 textarea{max-height: 12vh;
          min-width: 200px;
          min-height: 12vh;
-         max-width: 500px;}
+         max-width: 500px;
+        background-color: transparent;}
 
 textarea{margin-top: 20px;}     
 
@@ -171,3 +170,100 @@ textarea{margin-top: 20px;}
 
 
 iframe{filter: invert(100%);}
+
+
+/*-----------------TESTIMONIALS----------------------*/
+/*.testimonials{width: 80%;
+  text-align: center;
+  margin: auto;
+ padding-top: 100px;}  
+ 
+.testimonials-col{flex-basis: 30%;
+     border-radius: 20px;
+     overflow: hidden;
+    margin-bottom: 5%;
+    border: 2px solid black;
+    padding: 25px;
+    display: flex;
+    background:transparent;
+    margin-left: 20px;}    
+    
+.testimonials-col img{height:200px;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 35px;}     
+       
+.testimonials-col p{text-align: left;
+margin-top: 20px;}  
+
+/*.testimonials p{}*/
+
+/*.testimonials-col h3{text-align: left;
+        margin-top: 10px;
+        color:rgb(216, 43, 43) ;
+       }
+
+.testimonials-col .fa-solid{ color:rgb(216, 43, 43) ;
+               display: inline-block;
+               margin-top: 10px;
+               text-align: left;} */
+
+
+
+/*-----------------------------ABOUT US SECTION------------------------------*/
+
+.about-us{width: 80%;
+          margin: auto;
+          height: 100%;
+          background-color:rgb(48, 47, 47);
+          padding: 10px ;
+}
+
+.images{width: 300px;
+height: 300px;}
+
+.about-us-col-two{margin-left: 20px;
+background-color: rgb(187, 173, 173);}
+
+.about-us-col-two p{background-color: rgb(66, 62, 62);
+padding: 10px;
+color: white;}
+
+.image-one{margin-left: 10px;}
+
+.start-three{border: 2px solid rgb(216, 43, 43);
+            border-radius: 5px;
+            background-color: rgb(216, 43, 43);
+            padding: 10px 30px 10px 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+}  
+
+.start-div-one{padding-top:20px;
+text-align: center;
+justify-content: center;}
+
+
+
+.infor{width: 80%;
+       height: 60vh;
+       margin: auto;
+       background-image: linear-gradient(rgba(77, 78, 78, 0.7),rgba(21, 22, 22, 0.7)),url(./image/background\ img.jpeg) ;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;}
+
+.bg-container-paragraph-two{padding-top: 100px;
+  text-align: center;}  
+  
+  .start-three{border: 2px solid rgb(216, 43, 43);
+    border-radius: 5px;
+    background-color: rgb(216, 43, 43);
+    padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.start-three-div{margin-top: 50px;}

@@ -267,3 +267,106 @@ justify-content: center;}
 }
 
 .start-three-div{margin-top: 50px;}
+
+
+
+
+
+/*---------------------------CONTACT SECTION----------------------------*/
+.bg-container-two{width: 100%;
+  background-image: linear-gradient(rgba(77, 78, 78, 0.7),rgba(21, 22, 22, 0.7)),url(./image/12\ Woman\ Doing\ Push\ Ups\ Clipart\,\ Workout\ Woman\ Fitness\,\ Printable\ Watercolor\ Clipart\,\ Paper\ Crafts\,\ Wall\ Art\,\ Digital\ Download\,Junk\ Journals.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  background-color: black;}
+
+  .content{text-align: center;
+  margin-top: 20px;
+}
+
+.content h2{color:rgb(216, 43, 43);}
+
+.contact-section{width: 80%;
+                height: 60vh;
+                margin: auto;
+                background: antiquewhite;
+                margin-bottom: 50px;}
+
+.contact-container{width:100%;
+                  margin: auto;
+                  display: flex;
+                  background-color: cornflowerblue;
+                  height: 100%;}   
+                  
+.contact-container-one{background-color: white;
+                      width: 50%;
+                     height: 100%;
+                     background-image: linear-gradient(rgba(77, 78, 78, 0.7),rgba(21, 22, 22, 0.7)),url(./image/Perfect\ pushup\ Rear\ view\ of\ young\ man\ in\ sportswear\ doing\ pushup\ at\ gym\,\ Generative\ AI.jpeg);
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size:cover ;}    
+                     
+.contact-container-two{background-color: rgb(13, 14, 13);
+  width:50%;
+  height: 50%;
+ } 
+
+ .contact-container-two-i{background-color: blue;
+                          width: 100%;
+                          height: 100%;
+                         display: flex;}
+
+.contact-container-two-email{background-color:black;
+                            width: 50%;
+                            height: 100%;
+                           text-align: center;}  
+                         
+.contact-container-two-phone{background-color:rgb(114, 69, 69);
+                            width: 50%;
+                            height: 100%;
+                            text-align: center;
+                            color: white;}  
+                            
+                            
+.contact-container-two-ii{background-color: crimson;
+                          width: 100%;
+                          height: 100%;
+                          display: flex;}   
+                          
+.contact-container-two-address{width: 50%;
+                              height: 100%;
+                             background-color: rgb(243, 13, 13);
+                             text-align: center;}  
+                             
+.contact-container-two-website{width: 50%;
+  height: 100%;
+ background-color:green;
+ text-align: center;}    
+
+ /*-----------------------------------LINKS------------------------*/
+ 
+.phone{margin-top: 25px;
+      color: white;}
+
+.phone h3{color: crimson;}      
+
+.phone a{color:white;}
+
+.fa-solid:hover{transform: translateY(-10px);
+               color: red;
+               font-size:50px;
+               }         
+
+.fa-solid{font-size: 40px;
+         margin-bottom:20px ;
+         transition: .5s;}
+
+.contact-container-two-email p{color: white;}         
+
+       
+ 
+ 
+
+
+
